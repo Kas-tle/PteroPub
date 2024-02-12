@@ -1,0 +1,29 @@
+{
+    "name": "pteropub",
+    "version": "0.0.0",
+    "description": "A CLI tool to Publish files to a Pterodactyl Panel server based on predefined configurations",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kas-tle/PteroPub.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Kas-tle/PteroPub/issues"
+    },
+    "author": "Joshua Castle <packages@kastle.dev>",
+    "license": " AGPL-3.0-only",
+    "scripts": {
+        "build": "npx tsc"
+    },
+    "main": "dist/index.js",
+    "bin": {
+        "pteropub": "dist/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.17",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "chalk": "4.1.2"
+    }
+}

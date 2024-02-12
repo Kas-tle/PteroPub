@@ -1,0 +1,4 @@
+# Ensure typescript dist can be published
+package-lock.json
+pteropub.json
+scratch/
