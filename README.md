@@ -49,7 +49,7 @@ Create a `pteropub.json` file in the root of your project. Here is a minimal con
 
 The config can also be passed as the environment variable `PTEROPUB_CONFIG`. When set, this will take precedence over the `pteropub.json` file.
 
-### Ignoriing The Configuration
+### Ignoring The Configuration
 
 If using in a git repository, you'll likely want to add `pteropub.json` to your `.gitignore` file. This is because the API token is sensitive information and should not be shared.
 
